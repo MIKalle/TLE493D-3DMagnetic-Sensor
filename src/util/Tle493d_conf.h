@@ -105,11 +105,11 @@ const RegMask_t regMasks[] = {
 	{ REGMASK_WRITE, 13, 0x38, 3},		// XH2 (LSB)
 	{ REGMASK_WRITE, 13, 0x07, 0},		// XL2
 	
-	{ REGMASK_WRITE, 14, 0xA0, 6 }, 	// TST 
+	{ REGMASK_WRITE, 14, 0xC0, 6 }, 	// TST 
 	{ REGMASK_WRITE, 14, 0x38, 3 }, 	// YH2
 	{ REGMASK_WRITE, 14, 0x07, 0 }, 	// YL2 
 	
-	{ REGMASK_WRITE, 15, 0xA0, 6 }, 	// PH 
+	{ REGMASK_WRITE, 15, 0xC0, 6 }, 	// PH 
 	{ REGMASK_WRITE, 15, 0x38, 3 }, 	// ZH2 
 	{ REGMASK_WRITE, 15, 0x07, 0 }, 	// ZL2 
 	
